@@ -6,8 +6,8 @@ public class Main {
 
 
     public static void main(String[] args) {
-        String outputPath = "analysis/out";
-        String classPath = "analysis";
+        String outputPath = "results";
+        String classPath = "inputs";
         configureSoot(classPath, outputPath);// configure soot
         Scene.v().loadNecessaryClasses(); // load all the library and dependencies for given program
         SootClass helloWorld = Scene.v().getMainClass(); // get main class
