@@ -4,9 +4,9 @@ Getting started project for Soot.
 ## Setup Project in IDE
 1. Create an empty Java project and include pre-compile Soot as jar located under /libs. ([For IntelliJ follow here](#IntelliJ-Import-instructions) and continue to step 3)
 2. Add Main.java located under /src to your project. 
-3. Download SimpleTest.class located under /analysis and provide path in Main.java, where "inputs" is a directory containing .class file. 
+3. Download SimpleTest.class located under /inputs and provide path in Main.java, where "inputs" is a directory containing .class file. 
 > ``String classPath =  "inputs";``
-4. Update your output path
+4. Update your output path, output files will be written under results directory. 
 > ``String outputPath =  "results";``
 5. This project will process all the .class files located under classPath directory and Soot API call as follows; 
 > ``Options.v().set_src_prec(Options.src_prec_only_class);``
