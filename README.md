@@ -19,7 +19,7 @@ Getting started project for Soot.
 > ArrayList<String> cfg_list = new ArrayList<>();
 > cfg_list.add(allWildcard);
 > Options.v().set_dump_cfg(cfg_list);
-8. Run Main.java and it will output SimpleTest.jimple under output directory, and CFG(s) for each java class and method as .dot file. Ignore other CFGs except under SimpleTest directory inside the results directory. 
+8. Run Main.java and it will output SimpleTest.jimple under output directory, and CFG(s) for each java class and method as .dot file. Ignore other CFGs except under SimpleTest directory inside the results directory, use Brief-Units CFG(s) for report. 
 > install [graphviz](https://www.graphviz.org/) and use ``dot -Tpdf`` to generate a PDF. 
 
 
